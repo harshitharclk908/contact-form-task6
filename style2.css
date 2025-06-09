@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#successMessage {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
